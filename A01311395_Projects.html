@@ -7,7 +7,7 @@
         <!-- ASCII FORMATTING-->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- SETTING UP THE PAGE TO DISPLAY THE HAMBURGER MENU-->
-        <title>Jesse Streight</title>
+        <title>Projects</title>
         <!--DISPLAYS WEBPAGE TITLE IN THE TAB-->
         <link rel="shortcut icon" href="images/favicon2.ico" />
         <!--DISPLAYS WEBPAGE FAVICON IN THE TAB-->
@@ -15,6 +15,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet" />
         <!--ABOVE ARE 3 LINKS TO THE SOURCE FORMATTING FOR THE TEXT ON THE WEBPAGE FROM GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
         <!-- LINK TO THE LATEST VERSION OF BOOTSTRAP CSS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -54,16 +57,32 @@
             </div>
         </nav>
         <!-- NAVBAR AND ASSOCIATED LINKS FROM BOOSTRAP TUTORIAL-->
-        <div class="section5">
+        <div class="section7">
+          <div class="row">
+              <div class="col">
+                  <div class="container-fluid">
+                    <img id="logo" src="images/logo.jpg" class="img-fluid" alt="logo">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="iframe-container">
+          <iframe
+              src="https://experience.arcgis.com/experience/c322342dd2d1426a98d667a0e742c6e7"
+              allowfullscreen
+              height = "50%"
+              allow="geolocation">
+          </iframe>
+
+        </div>
+
+        <div class="section6">
             <div class="row">
                 <div class="col">
-                    <img id="title2" src="images/indoors.jpg"  alt="Project Document Cover Page">
-                </div>
-                <div class="col">
-                    <h2>BCIT Indoors</h2>
-                    <h4>The BCIT Indoors Campus Web Map Project (BCIT Indoors) was completed over 45 days
-                        under the Canadian division of the Environmental Systems Research Institute (ESRI)
-                        sponsorship. The primary intent of the project was to translate all BCIT’s Burnaby
+                    <h7>The BCIT Indoors Campus Web Map Project (BCIT Indoors) was completed over 45 days
+                        under the sponsorship of the Canadian division of the Environmental Systems Research Institute (ESRI).
+                         The primary intent of the project was to translate all BCIT’s Burnaby
                         campus building AutoCAD drawings to the ESRI Indoors geodatabase model, to support
                         the creation of both an Indoors Viewer desktop application and a mobile Indoors
                         application. The study area encompassed 16 BCIT Burnaby Campus facilities from
@@ -74,16 +93,16 @@
                         data was refined to fit the import specifications of the Indoors model
                         workflow, and a subsequent network was generated for 16 campus facilities.
                         Future progression and collaboration between BCIT staff and students will
-                        be needed to further develop this application to its full capabilities.</h4>
+                        be needed to further develop this application to its full capabilities.</h7>
+                    <br>
+                    <br>
+                    <h4>Hear the story on <button class="linkedin" onclick="href = 'https://arcg.is/0zGTLX';">ArcGIS StoryMaps</button></h4>
                     <br>
                     <h4>See the full video on
                       <a href="https://www.youtube.com/@BCITIndoors" target="_blank" aria-label="YouTube">
                       <img src="images/youtube.png" width="20%" height="20%" alt="YouTube Logo">
                       </a>
                     </h4>
-                    <h4>View the interactive map on <button class="linkedin" onclick="window.location.href = 'https://experience.arcgis.com/experience/c322342dd2d1426a98d667a0e742c6e7';">ArcGIS Online</button></h4>
-                    <br>
-                    
                 </div>
             </div>
         </div>

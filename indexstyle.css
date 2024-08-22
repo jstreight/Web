@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 .feature-title {
-    color: #073a68;
+    color: #2c699e;
     font-family: "Aboreto", cursive;
     font-size: 30pt;
     font-weight: 700;
@@ -60,6 +60,10 @@ h6 {
     text-align: left;
     -webkit-text-stroke: 1px #0000008f;
 }
+h7 {
+    font-family: "Fraunces", serif;
+    text-align: left;
+}
 
 /* NAVIGATION BAR - INSPIRED BY BOOSTRAP TUTORIAL*/
 .navbar {
@@ -88,6 +92,24 @@ h6 {
     border: #021526;
     border-width: 5px;
 }
+.container-fluid {
+   
+    background-image: url("images/indoors.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border: #021526;
+    border-width: 5px;   
+}
+/* HEADER */
+.header2 {
+    background-image: url("images/indoors.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: #021526;
+    border-width: 5px;
+}
 /* HEADER - PROFILE PICTURE*/
 #Jesse {
     border-radius: 50%;
@@ -100,16 +122,32 @@ h6 {
     -moz-box-shadow: 1px 1px 4px rgb(2, 15, 20);
     box-shadow: 10px 50px 20px rgba(2, 15, 20);
 }
+
 #Jesse2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 50%;
-    width: 30%;
+    left: 50%;
+    width: 20%;
+    position: flex;
+    top: 45%;
+    transform: translate(200%, -5%);
+    -webkit-box-shadow: 1px 1px 4px rgba(2, 15, 20, 0);
+    -moz-box-shadow: 1px 1px 4px rgb(2, 15, 20);
+    box-shadow: 10px 50px 20px rgba(2, 15, 20, 0.295);
+}
+
+#logo {
+    border-radius: 50%;
+    left: 50%;
+    width: 15%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-90%, -60%);
     -webkit-box-shadow: 1px 1px 4px rgb(2, 15, 20);
     -moz-box-shadow: 1px 1px 4px rgb(2, 15, 20);
     box-shadow: 10px 50px 20px rgba(2, 15, 20);
 }
+
+
 /* SECTION 1*/
 .section1 {
     margin: 4em auto;
@@ -220,6 +258,35 @@ th {
     width: 90%;
     border-radius: 5%;
 }
+
+.section6 {
+    margin: 4em auto;
+    padding: 1em;
+    /*display: flex; /* Add this line */
+    justify-content: left; /* Center content horizontally */
+    align-items: left; /* Center content vertically */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "Aboreto", cursive;
+    font-size: 24pt;
+    width: 90%;
+    border-radius: 5%;
+    text-align: center; /* Center text if needed */
+}
+.section7 {
+    margin: 4em auto;
+    padding: 1em;
+    /*display: flex; /* Add this line */
+    justify-content: left; /* Center content horizontally */
+    align-items: left; /* Center content vertically */
+    background-color: rgba(11, 39, 46, 0.5);
+    color: white;
+    font-family: "Aboreto", cursive;
+    font-size: 24pt;
+    width: 90%;
+    border-radius: 5%;
+    text-align: center; /* Center text if needed */
+}
 /* FOOTER*/
 footer {
     background-color: #111310;
@@ -320,5 +387,20 @@ footer {
 
 /* .feature-titles used from Boostrap Tutorial.*/
 
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 
